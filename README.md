@@ -34,8 +34,12 @@ conda activate mnist-cnn-gpu
 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
 pip install opencv-python idx2numpy numpy
+```
+2. Run the training script, this will not run again if network exist
 
-
-
-
-
+```bash
+python3 MNIST_train.py
+```
+3. Then run the webcam
+```bash
+python3 MNIST_webcam.py
