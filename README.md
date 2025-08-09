@@ -29,7 +29,7 @@ This project trains a Convolutional Neural Network (CNN) on the MNIST handwritte
 1. Create and activate the environment:
 
 ```bash
-conda env create mnist-cnn-gpu python==3.10
+conda env create mnist-cnn-gpu python=3.10
 conda activate mnist-cnn-gpu
 
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu121
