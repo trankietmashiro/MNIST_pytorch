@@ -14,7 +14,7 @@ This project trains a Convolutional Neural Network (CNN) on the MNIST handwritte
 
 ---
 
-## Requirements
+## Environment
 
 - Python 3.10
 - NVIDIA GPU with CUDA 12.1 drivers installed
